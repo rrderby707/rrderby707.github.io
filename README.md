@@ -14,4 +14,4 @@ No other data is currently used from Contentful. This is planned.
 
 <h2>Deployment</h2>
 
-Pushes to Master are automatically pulled to the server and built. This is visible at react.rrderby.org, which should be treated as the alpha staging site. After a deployment starts, visit this URL to make sure everything works as expected. Once your happy with it, visit deploy.rrderby.org/launch.php to make the site live. In case of errors, an admin can do this manually.
+This is now being hosted on GitHub Pages, with builds deployed to the /docs folder. GitHub requires that to be the directory name but, as far as I know, Gatsby only builds to /public. So I manually copied the deployment to /docs and committed it for updates. I'm sure that step could be automated.
